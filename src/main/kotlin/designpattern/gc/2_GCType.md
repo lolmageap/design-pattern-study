@@ -5,6 +5,7 @@
 3. G1 GC
 4. Shenandoah GC
 5. Z GC
+6. concurrent mark-sweep GC
 
 ### Serial GC
 - serial GC 는 오래전 단일 cpu 에서 사용이 되었던 GC로 single thread 로 동작을 하여 client 모드 에 적합 하다.
@@ -42,3 +43,8 @@ serial GC 와 parallel GC 는 survivor 영역간 이동을 할때 깊은 복사�
 - `-XX:+UseZGC` 옵션을 사용 하여 사용이 가능 하다.
 - 확장 가능한 빠른 GC 이다. (적용 가능한 Heap Memory Size : 8M ~ 16TB)
 - 최대 대기 시간을 10ms 미만 으로 유지 하기 위해 노력 한다. (메모리 가 16T 여도 밀리 세컨드 단위를 목표로 한다.)
+
+### concurrent mark-sweep GC
+- `-XX:+UseConcMarkSweepGC` 옵션을 사용 하여 사용이 가능 하다.
+- java 9 부터 deprecated 되었다. (java 9 부터 G1 GC 가 default 로 사용이 된다.)
+- java 8 버전 까지는 G1 GC 가 없었기 때문에 사용이 되었던 GC 이다.
