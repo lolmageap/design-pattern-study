@@ -8,7 +8,7 @@ Kent Beck : I'm not a great programmer, I'm just a good programmer with great ha
 
 '**기억은 유한하지만 기록은 무한하다.**' 라는 말이 있다.
 
-확실하게 이해하고 언젠가 까먹게 되더라도 다시 찾아볼 수 있도록 하기 위해 기록한다.
+확실하게 이해하고 정리한뒤 주기적으로 기록한다.
 
 ## 1. 디자인 패턴
 
