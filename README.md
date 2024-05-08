@@ -6,8 +6,6 @@ Kent Beck : I'm not a great programmer, I'm just a good programmer with great ha
 
 나도 위대한 프로그래머가 되기 위해 공부한 것을 매일 정리하고 기록하려 한다.
 
-'**기억은 유한하지만 기록은 무한하다.**' 라는 말이 있다.
-
 확실하게 이해하고 정리한뒤 주기적으로 기록한다.
 
 ## 1. 디자인 패턴
